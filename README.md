@@ -17,4 +17,5 @@ As implemented in MSTFinder.java, both the Prim and Kruskal classes take in the 
     3 2 0 0 6
     0 2 0 0 7
     0 0 6 7 0
+The first row contains one number (n), the number of nodes in the adjacency list. Each subsequent row (2 to n+1) contains n numbers, separated by spaces, describing the edge length between two nodes, or 0 if they are not connected; each row and column bijects into a corresponding node, and the valaue at their intersection is the distance between them. For example, the number that is two rows down and three columns right (2) describes the distance between nodes 2 and 3. Thus, the data is mirrored between the top right and bottom left diagonals, and the upper left to lower right diagonal all consists of 0's, since a node cannot be connected to itself. if the file cannot be found, the program returns with an error message.
 
