@@ -6,6 +6,10 @@ abstract class MSTFinder {
     protected String filename;
     protected int numNodes;
 
+    /**
+     * @param filename the name of the file the adjacency matrix data is contained in.
+     */
+
     public MSTFinder(String filename) {
         this.filename = filename;
 
