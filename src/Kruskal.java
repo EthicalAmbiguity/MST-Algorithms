@@ -41,7 +41,6 @@ public class Kruskal extends MSTFinder {
 
                     /* translate the graph into a edge list for Kruskal's Algorithm */
 
-                    System.out.println(i + " " + j + " " + distance);
                     edges.add(new Edge(i, j, distance));
                 }
             }
